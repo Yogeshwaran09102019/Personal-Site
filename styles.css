@@ -1,0 +1,90 @@
+body{
+  background-color: #e4efe7;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1
+{
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  color: black;
+}
+
+hr{
+  border: dotted #0a1931 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+
+input[type=submit]{
+  width: 10%;
+  height: 20%;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  background-color: #00ead3;
+  color: white;
+  border-radius: 12px;
+}
+
+.Middle{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.Next-Middle{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.First-Bottom{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.Top-cloud{
+  position: relative;
+  left:300px;
+  top:0;
+}
+.Bottom-cloud{
+  position: absolute;
+  right:1000px;
+  bottom:100px;
+}
+
+.code
+{
+  float: left;
+  margin-right: 30px;
+}
+
+.web{
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  bottom:50px;
+}
+
+.footer{
+  background-color: #00ead3;
+  margin-top: 30px;
+}
+
+.footer-para{
+  position: relative;
+  top:30px;
+}
